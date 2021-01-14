@@ -1,1 +1,31 @@
-151156151561
+git为分布式管理工具  以用户名及邮箱作为标识
+operation：
+cd to 工作区
+
+pwd 查看目录路径
+
+mkdir  创建文件
+
+git init 初始化
+ 
+git add XXXX   将XXXX文件提交至暂存区
+
+git commit -m 将暂存区文件提交到仓库
+
+git status 检查文件状态
+
+git diff 查看文件修改的内容
+
+git log 获取历史详细记录
+
+git log --pretty=oneline   记录只显示 版本号(简略)和描述
+
+git reset --hard XXXX  回退至XXX版本
+
+git cat 查看文件内容
+
+git reset --hard HEAD^ 回退至上一个版本
+
+git reflog：获取历史版本号
+
+git reset --hard HEAD~100 回退至多少的版本
